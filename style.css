@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(img/images.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: bottom;
+    background-size: cover;
+    overflow-x: hidden;
+
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.signal {
+    position: absolute;
+    top: 163px;
+    right: 300px;
+    width: 15%;
+}
+
+.signal img {
+    width: 100px;
+    height: 300px;
+
+}
+
+
+.car-box {
+    width: 25%;
+    position: absolute;
+    bottom: 95px;
+}
+
+.buttons {
+    position: absolute;
+    right: 60px;
+    top: 40px;
+    background-color: #000;
+    padding: 15px;
+    height: 105px;
+    width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.buttons button {
+    height: 39px;
+    width: 85px;
+    margin: 0px 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#stop-btn {
+    background-color: red;
+    color: #fff;
+    border: 1px solid black;
+}
+
+#ready-btn {
+    background-color: orange;
+    color: #fff;
+    border: 1px solid black;
+}
+
+#go-btn {
+    background-color: #5fda7d;
+    color: #fff;
+    border: 1px solid black;
+
+}
+
+#reset-car{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #fff;
+}
+.red{
+    display:block ;
+}
+.orange{
+    display: none;
+}
+.green{
+    display: none;
+}
